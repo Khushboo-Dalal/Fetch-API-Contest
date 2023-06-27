@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>fetch API Contest</title>
+  </head>
+  <body>
+    <section>
+      <table>
+        <thead>
+          <th colspan="3">
+            <input
+              type="text"
+              placeholder="Search Cryptocurrency"
+              name="coin"
+              id="search"
+            />
+          </th>
+          <th id="sortPercentBox">
+            <button id="sortPercentChange">Sort by Percentage</button>
+            <i
+              class="fa-solid fa-caret-left fa-rotate-270"
+              style="color: #000000"
+            ></i>
+          </th>
+          <th id="sortMktBox">
+            <button id="sortMktCap">Sort by Mkt Cap</button>
+            <i
+              class="fa-solid fa-caret-left fa-rotate-270"
+              style="color: #000000"
+            ></i>
+          </th>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </section>
+    <script>
+      console.clear();
+    </script>
+    <script src="./script.js"></script>
+  </body>
+</html>
